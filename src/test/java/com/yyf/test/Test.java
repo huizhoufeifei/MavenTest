@@ -27,4 +27,8 @@ public class Test {
         System.out.println("hot-fix第一次提交代码");
     }
 
+    @org.junit.Test
+    public void testMerge(){
+        System.out.println("master对应hot-fix第二次提交代码");
+    }
 }
