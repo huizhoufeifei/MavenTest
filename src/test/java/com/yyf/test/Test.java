@@ -27,4 +27,9 @@ public class Test {
         System.out.println("hot-fix第一次提交代码");
     }
 
+    @org.junit.Test
+    public void test04(){
+        System.out.println("hot-fix第二次提交代码");
+    }
+
 }
