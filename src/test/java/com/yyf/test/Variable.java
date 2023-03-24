@@ -16,4 +16,5 @@ public class Variable {
         b = new StringBuilder("b");
         c = c.append(b);
     }
+
 }

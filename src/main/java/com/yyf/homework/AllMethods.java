@@ -50,4 +50,14 @@ public class AllMethods {
         }
     }
 
+
+    public String reverseStrOne(String str){
+        char[] chars = str.toCharArray();
+        String url = "";
+        for (int i = chars.length -1; i >= 0; i--) {
+            url += chars[i];
+        }
+        return url;
+    }
+
 }
