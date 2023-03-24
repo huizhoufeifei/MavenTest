@@ -28,6 +28,11 @@ public class Test {
     }
 
     @org.junit.Test
+    public void test04(){
+        System.out.println("hot-fix第二次提交代码");
+    }
+
+    @org.junit.Test
     public void testMerge(){
         System.out.println("master对应hot-fix第二次提交代码");
     }
