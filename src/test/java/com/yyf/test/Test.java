@@ -21,4 +21,10 @@ public class Test {
         String http = allMethods.reverseStrTwo("www.http");
         System.out.println(http);
     }
+
+    @org.junit.Test
+    public void test03(){
+        System.out.println("hot-fix第一次提交代码");
+    }
+
 }
