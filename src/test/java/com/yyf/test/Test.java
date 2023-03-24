@@ -14,4 +14,11 @@ public class Test {
         String http = allMethods.reverseStrOne("http");
         System.out.println(http);
     }
+
+    @org.junit.Test
+    public void test02(){
+        AllMethods allMethods = new AllMethods();
+        String http = allMethods.reverseStrTwo("www.http");
+        System.out.println(http);
+    }
 }

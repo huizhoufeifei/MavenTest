@@ -60,4 +60,10 @@ public class AllMethods {
         return url;
     }
 
+    public String reverseStrTwo(String str){
+        StringBuilder stringBuilder = new StringBuilder(str);
+        stringBuilder.reverse();
+        return stringBuilder.toString();
+    }
+
 }
