@@ -41,4 +41,9 @@ public class Test {
     public void testPush(){
         System.out.println("修改代码push到GitHub中");
     }
+    
+    @org.junit.Test
+    public void testPull(){
+        System.out.println("GitHub修改代码pull到idea中");
+    }
 }
